@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class idade {
+public class perguntarIdade {
 
     public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class idade {
 
             } catch(Exception e) {
                 System.out.println("-----");
-                System.out.println("Por favor, insira uma idade válida (apenas números).");
+                System.out.println("Por favor, insira uma idade válida (1 à 116).");
                 System.out.println("-----");
             }
 
